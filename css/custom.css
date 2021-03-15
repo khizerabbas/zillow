@@ -1,0 +1,105 @@
+/* top-nav bar */
+.top-nav {
+    padding-left: 0 !important;
+    margin-top: 6px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    font-size: 14px;
+}
+
+.top-nav a {
+    color: black;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.top-nav a:hover {
+    color: rgb(0, 106, 255);
+}
+
+.top-nav li {
+    padding: 8px 14px 13px 15px;
+}
+
+/* container-nav bar*/
+.container-nav {
+    padding: 10px 12px 10px 12px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.white-invert-button {
+    background: white;
+    border: 1px solid rgb(209, 209, 213);
+    border-radius: 2px;
+    color: rgb(0, 106, 255);
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    height: 100%;
+    outline: none;
+    padding: 5px 25px 5px 25px;
+    white-space: nowrap;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.primary-invert-button {
+    background: rgb(0, 106, 255);
+    border: 1px solid rgb(0, 106, 255);
+    border-radius: 4px;
+    color: white;
+    outline: none;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    height: 100%;
+    padding: 5px 15px 5px 15px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.white-invert-button:hover, .primary-invert-button:hover {
+    background-color: rgb(242, 250, 255);
+    border-color: rgb(13, 69, 153);
+    color: rgb(13, 69, 153);
+}
+
+/* body container section */
+.no-margin {
+    margin: 0 !important;
+}
+
+.search-input {
+    padding: 4px 6px 2px;
+    font-size: 15px;
+    line-height: 1.5em;
+    border: 1px solid rgb(167, 166, 171);
+    border-radius: 3px;
+    box-shadow: rgb(249 249 251) 0px 2px 2px inset, rgb(98 174 247) 0px 0px 0px;
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+.input-search-icon {
+    margin-right: 7px;
+    margin-top: 7px;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    pointer-events: none;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
