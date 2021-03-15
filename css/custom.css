@@ -63,9 +63,21 @@
     color: rgb(13, 69, 153);
 }
 
+.red-dot {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 /* body container section */
 .no-margin {
     margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
 }
 
 .search-input {
@@ -142,4 +154,29 @@
 
 .left-box-shadow {
     box-shadow: -5px 0 5px -5px #333;
+}
+
+.pagination > li > a, .pagination > li > span {
+    border-radius: 50% !important;
+    margin: 0 5px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(0, 106, 255);
+}
+
+/* Footer */
+.quick-access-link {
+    padding: 5px 10px;
+}
+
+.quick-access-link a {
+    color: black;
+}
+
+.quick-access-link a:hover {
+    color: rgb(0, 106, 255);
+    text-decoration: none;
+}
+
+.footer-text {
+    font-size: 11px;
 }
