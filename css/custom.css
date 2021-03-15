@@ -180,3 +180,61 @@
 .footer-text {
     font-size: 11px;
 }
+
+/* top-nav hover menu */
+.drop-toggle {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(209, 209, 213);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-links {
+    padding: 1em;
+    text-align: initial;
+}
+
+.menu-links a{
+    color: rgb(0, 106, 255);
+}
+
+.links {
+    padding: 0 1.5em;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 600px;
+}
+
+.headings {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grey-right-border {
+    border-right: 1px solid rgb(216, 216, 216);
+}
