@@ -97,9 +97,49 @@
 }
 
 .right-addon .glyphicon {
-    right: 0px;
+    right: 0;
 }
 
 .right-addon input {
     padding-right: 30px;
+}
+
+.pl-none {
+    padding-left: 0 !important;
+}
+
+.pr-none {
+    padding-right: 0 !important;
+}
+
+.border-radius-2 {
+    border-radius: 20px !important;
+}
+
+.rounded-div {
+    background-color: #f9f9fb;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.label-grey {
+    color: #2A2A33;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.select-cl-blue {
+    color: rgb(0, 106, 255);
+    font-weight: 600;
+}
+
+.select-cl-blue option {
+    color: black;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.left-box-shadow {
+    box-shadow: -5px 0 5px -5px #333;
 }
