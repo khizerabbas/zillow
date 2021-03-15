@@ -84,9 +84,14 @@
             </div>
             <div class="row">
                 <div class="rounded-div border-radius-2 ml-4">
-                    <button class="btn  border-radius-2"><span class="font-weight-bold">46,343</span> Agent listings
+                    <button onclick="switchToAgentListings()" class="btn btn-primary border-radius-2"
+                            id="agent-listings"><span
+                            class="font-weight-bold">46,343</span> Agent
+                        listings
                     </button>
-                    <button class="btn  border-radius-2"><span class="font-weight-bold">12,321</span> Other listings
+                    <button onclick="switchToOtherListings()" class="btn border-radius-2" id="custom-listings"><span
+                            class="font-weight-bold">12,321</span> Other
+                        listings
                     </button>
                 </div>
                 <div class="ml-5 mt-2">
@@ -109,4 +114,5 @@
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
 </html>
