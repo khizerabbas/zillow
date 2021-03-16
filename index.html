@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="img/favicon-32x32.png"/>
 </head>
 <body>
-<nav class="navbar navbar-expand-md top-nav">
+<nav class="navbar navbar-expand-lg top-nav">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
@@ -58,11 +58,24 @@
             </li>
         </ul>
     </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+        <div class="navbar-toggler-icon-line"></div>
+        <div class="navbar-toggler-icon-line"></div>
+        <div class="navbar-toggler-icon-line"></div>
+    </button>
+    <img src="img/favicon-32x32.png" class="d-lg-none">
+    <form class="mr-3 d-md-none ml-2">
+        <div class="inner-addon right-addon">
+            <svg width="16" height="16" fill="#006aff" class="bi bi-search glyphicon input-search-icon"
+                 viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+            <input type="text" class="search-input">
+        </div>
+    </form>
+    <a class="d-lg-none float-right" style="color:rgb(0, 106, 255);" href="#">Sign in</a>
     <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="#"><img src="img/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand mx-auto d-none d-lg-block" href="#"><img src="img/logo.png"></a>
     </div>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
@@ -84,7 +97,7 @@
 <section class="container-nav">
     <div class="clearfix">
         <div class="btn-group inline pull-left">
-            <form class="mr-3">
+            <form class="mr-3 d-none d-md-block">
                 <div class="inner-addon right-addon">
                     <svg width="16" height="16" fill="#006aff" class="bi bi-search glyphicon input-search-icon"
                          viewBox="0 0 16 16">
@@ -95,15 +108,15 @@
             </form>
             <button class="white-invert-button"><span class="red-dot mr-1"></span>For Sale</button>
             <button class="white-invert-button">Price</button>
-            <button class="white-invert-button">Beds & Baths</button>
-            <button class="white-invert-button">Home Type</button>
+            <button class="white-invert-button d-none d-lg-block">Beds & Baths</button>
+            <button class="white-invert-button d-none d-lg-block">Home Type</button>
             <button class="white-invert-button">More</button>
             <button class="primary-invert-button">Save search</button>
         </div>
     </div>
 </section>
 <div class="row no-margin">
-    <div class="col-lg-5 pl-none pr-none">
+    <div class="col-lg-5 pl-none pr-none d-none d-lg-block d-xl-block">
         <div>
             <img src="img/map.jpg" class="img-fluid">
         </div>
@@ -143,8 +156,8 @@
         <!--   Agent listing list      -->
         <div class="mt-4" id="agent-listing-list">
             <div class="row mt-2">
-                <div class="col-lg-6">
-                    <div class="card">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="card blue-bottom-border mb-2">
                         <img src="img/map.jpg" class="card-img-top" height="150px">
                         <div class="card-body">
                             <h5 class="card-title mb-0">$201,900</h5>
@@ -152,8 +165,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="card blue-bottom-border mb-2">
                         <img src="img/map.jpg" class="card-img-top" height="150px">
                         <div class="card-body">
                             <h5 class="card-title mb-0">$201,900</h5>
@@ -163,8 +176,8 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-lg-6">
-                    <div class="card">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="card blue-bottom-border mb-2">
                         <img src="img/map.jpg" class="card-img-top" height="150px">
                         <div class="card-body">
                             <h5 class="card-title mb-0">$201,900</h5>
@@ -172,8 +185,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="card blue-bottom-border mb-2">
                         <img src="img/map.jpg" class="card-img-top" height="150px">
                         <div class="card-body">
                             <h5 class="card-title mb-0">$201,900</h5>
@@ -186,8 +199,8 @@
         <!-- Other listing list        -->
         <div class="mt-4 d-none" id="others-listing-list">
             <div class="row mt-2">
-                <div class="col-lg-6">
-                    <div class="card">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="card blue-bottom-border mb-2">
                         <img src="img/map.jpg" class="card-img-top" height="150px">
                         <div class="card-body">
                             <h5 class="card-title mb-0">$412,121</h5>
@@ -195,8 +208,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="card blue-bottom-border mb-2">
                         <img src="img/map.jpg" class="card-img-top" height="150px">
                         <div class="card-body">
                             <h5 class="card-title mb-0">$412,121</h5>
@@ -206,8 +219,8 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-lg-6">
-                    <div class="card">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="card blue-bottom-border mb-2">
                         <img src="img/map.jpg" class="card-img-top" height="150px">
                         <div class="card-body">
                             <h5 class="card-title mb-0">$412,121</h5>
@@ -215,8 +228,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="card blue-bottom-border mb-2">
                         <img src="img/map.jpg" class="card-img-top" height="150px">
                         <div class="card-body">
                             <h5 class="card-title mb-0">$412,121</h5>
@@ -256,39 +269,39 @@
         <footer>
             <div>
                 <div class="row small mt-3 quick-access-link">
-                    <div class="col-lg-6"><a href="#">About</a></div>
-                    <div class="col-lg-6"><a href="#">Cookie Preference</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">About</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Cookie Preference</a></div>
                 </div>
                 <div class="row small quick-access-link">
-                    <div class="col-lg-6"><a href="#">Zestimates</a></div>
-                    <div class="col-lg-6"><a href="#">Blog</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Zestimates</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Blog</a></div>
                 </div>
                 <div class="row small quick-access-link">
-                    <div class="col-lg-6"><a href="#">Research</a></div>
-                    <div class="col-lg-6"><a href="#">AI</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Research</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">AI</a></div>
                 </div>
                 <div class="row small quick-access-link">
-                    <div class="col-lg-6"><a href="#">Career</a></div>
-                    <div class="col-lg-6"><a href="#">Mobile Apps</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Career</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Mobile Apps</a></div>
                 </div>
                 <div class="row small quick-access-link">
-                    <div class="col-lg-6"><a href="#">Help</a></div>
-                    <div class="col-lg-6"><a href="#">Trulia</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Help</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Trulia</a></div>
                 </div>
                 <div class="row small quick-access-link">
-                    <div class="col-lg-6"><a href="#">Advertise</a></div>
-                    <div class="col-lg-6"><a href="#">StreetEasy</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Advertise</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">StreetEasy</a></div>
                 </div>
                 <div class="row small quick-access-link">
-                    <div class="col-lg-6"><a href="#">Fair Housing Guide</a></div>
-                    <div class="col-lg-6"><a href="#">Hotpads</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Fair Housing Guide</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Hotpads</a></div>
                 </div>
                 <div class="row small quick-access-link">
-                    <div class="col-lg-6"><a href="#">Terms of use</a></div>
-                    <div class="col-lg-6"><a href="#">Our East</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Terms of use</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Our East</a></div>
                 </div>
                 <div class="row small quick-access-link">
-                    <div class="col-lg-6"><a href="#">Privacy Portal</a></div>
+                    <div class="col-lg-6 col-6"><a href="#">Privacy Portal</a></div>
                 </div>
             </div>
             <div class="text-center">
